@@ -25,12 +25,13 @@ SECRET_KEY = '4efy#u8=b-)^ws@_n0#sirv6t^5xfps%7ti$7@2qga97**d+ty'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.43.15','localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'jobs.apps.JobsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
